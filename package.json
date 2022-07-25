@@ -1,0 +1,15 @@
+{
+  "name": "studyNote",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "liuhaowang",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy":"bash deploy.sh"
+  }
+}
