@@ -17,6 +17,7 @@ module.exports = {
     nav: [
       { text: "运维", items: [{ text: "Linux", link: "/operation/Linux/" }] },
       { text: "消息中间件", items: [{ text: "RabbitMQ", link: "/middleware/RabbitMQ/" }] },
+      { text: "NoSQL", items: [{ text: "Redis", link: "/NoSQL/Redis/" }] }
     ],
   },
   smoothScroll: true,
