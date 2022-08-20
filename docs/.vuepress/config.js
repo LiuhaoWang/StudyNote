@@ -15,6 +15,10 @@ module.exports = {
   ],
   themeConfig: {
     nav: [
+      { text: "Spring", items: [
+        { text: "SpringCloud", link: "/Spring/SpringCloud/" },
+        { text: "SpringCloud Alibaba", link: "/Spring/SpringCloud Alibaba/" }
+      ] },
       { text: "运维", items: [{ text: "Linux", link: "/operation/Linux/" }] },
       { text: "消息中间件", items: [{ text: "RabbitMQ", link: "/middleware/RabbitMQ/" }] },
       { text: "NoSQL", items: [{ text: "Redis", link: "/NoSQL/Redis/" }] }
